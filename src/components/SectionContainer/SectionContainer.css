@@ -1,0 +1,14 @@
+.section-container {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.section-title {
+  font-size: 3.5rem;
+  text-transform: uppercase;
+}
+
+.section-text {
+  font-size: 1.5rem;
+  font-weight: lighter;
+}
