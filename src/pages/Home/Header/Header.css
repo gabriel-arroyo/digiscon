@@ -24,7 +24,6 @@
 .welcome-text {
   color: #27337e;
   font-weight: bold !important;
-  font-weight: lighter;
   font-size: 1.2rem;
   grid-column-start: 1;
   grid-column-end: 1;
@@ -80,8 +79,6 @@
   }
 
   .welcome-text {
-    color: #ff7200;
-    font-weight: lighter;
     font-size: 1.2rem;
     grid-column-start: 1;
     grid-column-end: 1;
