@@ -40,4 +40,19 @@
   .section-title {
     font-size: 2rem;
   }
+
+  .trama-left {
+    position: absolute;
+    top: -30px;
+    right: -50px;
+    height: 100px;
+  }
+
+  .trama-right {
+    position: absolute;
+    bottom: -95px;
+    left: -55px;
+    z-index: 10;
+    height: 150px;
+  }
 }
