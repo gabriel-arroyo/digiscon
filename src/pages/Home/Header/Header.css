@@ -48,7 +48,7 @@
   grid-row-start: 1;
   grid-row-end: 4;
   max-width: 500px;
-  width: 90vw;
+  width: 80vw;
 }
 
 /* media query at min 1200px */
@@ -65,7 +65,7 @@
   }
 
   .welcome-title {
-    font-size: 4.7rem;
+    font-size: 2.7rem;
     font-weight: bold;
     grid-column-start: 1;
     grid-column-end: 1;

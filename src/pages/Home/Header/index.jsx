@@ -7,9 +7,9 @@ const Header = () => {
     <header className="masthead" id="page-top">
       <p className="title-1 text-primary welcome-title">Bienvenido</p>
       <p className="welcome-text welcome-text">
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus unde
-        commodi sapiente dicta aut possimus similique, voluptas quae ratione
-        est. Dolor a natus porro aliquam dicta delectus possimus autem aperiam?
+        Somos apasionados del emprendimiento y existimos para apoyar a ”Small
+        bussiness” a desarrollar sus sistemas de trabajo y aprovechar
+        plataformas tecnológicas para lograr eficiencia y mejores resultados.
       </p>
       <div className="button-container d-flex flex-column flex-lg-row align-items-center">
         <Button className="text-light text-uppercase">Cotizar Ahora</Button>

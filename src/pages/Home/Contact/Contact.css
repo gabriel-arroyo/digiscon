@@ -9,3 +9,15 @@
   align-items: center;
   justify-content: center;
 }
+
+/* media query 650 max */
+@media (max-width: 650px) {
+  .contact-container {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+
+  .section-title {
+    font-size: 2rem;
+  }
+}

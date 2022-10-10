@@ -6,6 +6,7 @@ import Process from "./Process";
 import Values from "./Values";
 import CallToAction from "./CallToAction";
 import Contact from "./Contact";
+import Message from "./Message";
 
 export const Home = () => {
   return (
@@ -13,6 +14,7 @@ export const Home = () => {
       <Navbar />
       <Header />
       <Process />
+      <Message />
       <Values />
       <CallToAction />
       <Contact />

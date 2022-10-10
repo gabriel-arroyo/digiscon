@@ -12,3 +12,15 @@
   font-size: 1.5rem;
   font-weight: lighter;
 }
+
+/* media query 650 max */
+@media (max-width: 650px) {
+  .section-container {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+
+  .section-title {
+    font-size: 2rem;
+  }
+}

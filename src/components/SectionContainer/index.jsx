@@ -1,7 +1,8 @@
 import React from "react";
 import "./SectionContainer.css";
 
-const SectionContainer = ({ title, text, color, children }) => {
+const SectionContainer = ({ title, text, color, children, titleColor }) => {
+  const tcolor = titleColor ? titleColor : "white";
   return (
     <div
       id="process"
@@ -10,7 +11,10 @@ const SectionContainer = ({ title, text, color, children }) => {
     >
       <div className="container px-5 col-md-12 col-lg-6">
         <div className="header-col text-center">
-          <p className="fw-bold font-weight-bold text-light section-title">
+          <p
+            className="fw-bold font-weight-bold section-title"
+            style={{ color: tcolor }}
+          >
             {title}
           </p>
           <p className="text-light section-text">{text}</p>
