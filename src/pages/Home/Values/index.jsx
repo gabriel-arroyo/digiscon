@@ -12,6 +12,7 @@ const Values = () => {
       title="Nuestros valores"
       text="Trabajamos cada proyecto dando lo mejor de nosotros"
       color="#27337e"
+      side="left"
     >
       <ValueItem icon={icon1} title="Pasión" text="Nos mueve crear para ti" />
       <ValueItem

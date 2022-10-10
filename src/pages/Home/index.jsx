@@ -16,7 +16,7 @@ export const Home = () => {
       <Process />
       <Message />
       <Values />
-      <CallToAction />
+      <CallToAction button="Cotiza Online" />
       <Contact />
     </>
   );

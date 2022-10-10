@@ -12,6 +12,7 @@ const Process = () => {
       title="Nuestro Proceso"
       text="Tus necesidades tienen una solución."
       color="#6188c5"
+      side="left"
     >
       <ProcessItem
         icon={icon1}

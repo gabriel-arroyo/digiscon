@@ -6,7 +6,7 @@
   padding-bottom: 200px;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 3fr min-content 1fr;
+  grid-template-rows: 160px 70px 90px;
 }
 
 .welcome-title {
@@ -16,13 +16,14 @@
   grid-column-end: 1;
   grid-row-start: 1;
   grid-row-end: 1;
-  align-self: end;
+  align-self: flex-start;
   justify-self: start;
-  margin-top: 80px;
+  margin-top: 5px;
 }
 
 .welcome-text {
-  color: #ff7200;
+  color: #27337e;
+  font-weight: bold !important;
   font-weight: lighter;
   font-size: 1.2rem;
   grid-column-start: 1;
@@ -30,6 +31,7 @@
   grid-row-start: 2;
   grid-row-end: 2;
   margin-right: 1rem;
+  align-self: center;
 }
 
 .button-container {
@@ -38,17 +40,19 @@
   grid-row-start: 3;
   grid-row-end: 3;
   justify-self: center;
+  align-self: flex-end;
 }
 
 .video {
+  margin-top: 20px;
   justify-self: center;
   align-self: center;
   grid-column-start: 2;
   grid-column-end: 2;
   grid-row-start: 1;
   grid-row-end: 4;
-  max-width: 500px;
-  width: 80vw;
+  max-width: 550px;
+  width: 85vw;
 }
 
 /* media query at min 1200px */

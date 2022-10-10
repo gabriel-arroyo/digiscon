@@ -1,7 +1,15 @@
 import React from "react";
 import "./SectionContainer.css";
+import image from "../../assets/img/imagotipo.png";
 
-const SectionContainer = ({ title, text, color, children, titleColor }) => {
+const SectionContainer = ({
+  title,
+  text,
+  color,
+  children,
+  titleColor,
+  side,
+}) => {
   const tcolor = titleColor ? titleColor : "white";
   return (
     <div
@@ -9,6 +17,10 @@ const SectionContainer = ({ title, text, color, children, titleColor }) => {
       className="section-container"
       style={{ backgroundColor: color, height: "100%" }}
     >
+      {side === "right" && (
+        <img src={image} alt="back" className="trama-right" />
+      )}
+      {side === "left" && <img src={image} alt="back" className="trama-left" />}
       <div className="container px-5 col-md-12 col-lg-6">
         <div className="header-col text-center">
           <p

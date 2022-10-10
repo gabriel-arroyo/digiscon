@@ -3,7 +3,7 @@ import SectionContainer from "../../../components/SectionContainer";
 
 const Message = () => {
   return (
-    <SectionContainer color="#fef0d6" titleColor="#f80000">
+    <SectionContainer color="#fef0d6" titleColor="#f80000" side="right">
       <p style={{ fontSize: "1.2rem", color: "#27337e" }}>
         Lanzamos nuesta oferta principalmente a emprendedores y small business,
         sobre todo de origen latino o de habla hispana que operan en USA o en

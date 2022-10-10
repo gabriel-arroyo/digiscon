@@ -1,6 +1,8 @@
 .section-container {
   padding-top: 3rem;
   padding-bottom: 3rem;
+  position: relative;
+  overflow: hidden;
 }
 
 .section-title {
@@ -11,6 +13,21 @@
 .section-text {
   font-size: 1.5rem;
   font-weight: lighter;
+}
+
+.trama-left {
+  position: absolute;
+  top: -80px;
+  right: -50px;
+  height: 200px;
+}
+
+.trama-right {
+  position: absolute;
+  bottom: -125px;
+  left: -75px;
+  z-index: 10;
+  height: 250px;
 }
 
 /* media query 650 max */
