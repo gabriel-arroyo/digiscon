@@ -6,7 +6,7 @@ const SectionContainer = ({ title, text, color, children }) => {
     <div
       id="process"
       className="section-container"
-      style={{ backgroundColor: color }}
+      style={{ backgroundColor: color, height: "100%" }}
     >
       <div className="container px-5 col-md-12 col-lg-6">
         <div className="header-col text-center">
@@ -14,7 +14,7 @@ const SectionContainer = ({ title, text, color, children }) => {
             {title}
           </p>
           <p className="text-light section-text">{text}</p>
-          <div className="d-flex flex-lg-row flex-md-column flex-sm-column flex-column align-items-center justify-content-center">
+          <div className="d-flex flex-lg-row flex-md-column flex-sm-column flex-column align-items-center justify-content-center h-100">
             {children}
           </div>
         </div>

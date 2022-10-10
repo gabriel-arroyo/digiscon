@@ -1,3 +1,37 @@
 .process-item {
   background-color: #27337e !important;
+  display: grid;
+  grid-template-columns: 200px;
+  grid-template-rows: 200px 80px 50px;
+}
+
+.process-icon {
+  grid-column-start: 1;
+  grid-column-end: 1;
+  grid-row-start: 1;
+  grid-row-end: 1;
+  justify-self: center;
+  align-self: center;
+}
+
+.process-title {
+  grid-column-start: 1;
+  grid-column-end: 1;
+  grid-row-start: 2;
+  grid-row-end: 2;
+  justify-self: center;
+  align-self: center;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.process-text {
+  grid-column-start: 1;
+  grid-column-end: 1;
+  grid-row-start: 3;
+  grid-row-end: 3;
+  justify-self: center;
+  align-self: center;
+  font-size: 1.1rem;
+  font-weight: normal;
 }

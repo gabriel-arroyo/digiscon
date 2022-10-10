@@ -24,7 +24,11 @@ function Contact() {
                 <Form.Control type="textarea" placeholder="Mensaje" />
               </Form.Group>
 
-              <Button variant="primary" type="submit">
+              <Button
+                variant="primary"
+                type="submit"
+                className="text-light text-uppercase"
+              >
                 Submit
               </Button>
             </Form>

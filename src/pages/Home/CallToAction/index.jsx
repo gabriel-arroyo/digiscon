@@ -6,7 +6,9 @@ const CallToAction = () => {
   return (
     <div className="cta-container">
       <div className="d-flex align-items-center justify-content-center h-100">
-        <Button className="text-light text-uppercase">Cotiza online</Button>
+        <Button className="text-light text-uppercase quote-button">
+          Cotiza online
+        </Button>
       </div>
     </div>
   );

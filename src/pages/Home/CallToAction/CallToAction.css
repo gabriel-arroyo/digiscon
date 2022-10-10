@@ -1,4 +1,9 @@
 .cta-container {
   background: rgb(194, 194, 194);
-  height: 200px;
+  height: 230px;
+}
+
+.quote-button {
+  height: 80px;
+  font-size: 2rem !important;
 }
