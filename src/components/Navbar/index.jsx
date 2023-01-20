@@ -1,6 +1,7 @@
 import React from "react";
 import "./navbar.css";
 import logo from "../../assets/img/logo.png";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
@@ -27,19 +28,19 @@ const Navbar = () => {
         <div className="collapse navbar-collapse" id="navbarResponsive">
           <ul className="navbar-nav ms-auto me-4 my-3 my-lg-0 ">
             <li className="nav-item">
-              <a className="nav-link me-lg-3  text-white" href="/index.html">
+              <Link className="nav-link me-lg-3 text-white" to={"/home"}>
                 Home
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link me-lg-3 text-white" href="/index.html">
+              <Link className="nav-link me-lg-3 text-white" to={"/blog"}>
                 Blog
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link me-lg-3 text-white" href="/index.html">
+              <Link className="nav-link me-lg-3 text-white" to={"/auth/login"}>
                 Login
-              </a>
+              </Link>
             </li>
           </ul>
           <div className="language">

@@ -11,7 +11,6 @@ import Message from "./Message";
 export const Home = () => {
   return (
     <>
-      <Navbar />
       <Header />
       <Process />
       <Message />
